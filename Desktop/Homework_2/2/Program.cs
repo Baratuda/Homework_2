@@ -12,12 +12,12 @@ while(x==0){
   if(dayOfWeak>0 && dayOfWeak<8){
     if(dayOfWeak==6 || dayOfWeak==7){
       Console.Write("-------------------------------------------------------- \n");
-      Console.Write($"The day number corresponds to the day off \n");
+      Console.Write($"The day number {dayOfWeak} corresponds to the day off \n");
       Console.Write("-------------------------------------------------------- \n");
       break;
     }
     Console.Write("-------------------------------------------------------- \n");
-    Console.Write($"The day number dosen't corresponds to the day off \n");
+    Console.Write($"The day number {dayOfWeak} dosen't corresponds to the day off \n");
     Console.Write("-------------------------------------------------------- \n");
     break;
   } else {
