@@ -6,9 +6,8 @@
 
 Console.Clear();
 int x=0;
-
+//The loop WHILE allows you to re-enter the number if the user entered the number incorrectly.
 while(x==0){
-
 Console.Write("Please input number: ");
 int number = int.Parse(Console.ReadLine());
 if(number>99 && number<1000){
